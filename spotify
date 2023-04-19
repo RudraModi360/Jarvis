@@ -1,0 +1,53 @@
+import os
+import pyautogui
+from keyboard import write
+from time import sleep
+from keyboard import press
+import speech_recognition as sr
+import pyttsx3
+
+engine = pyttsx3.init('sapi5')
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[0].id)
+
+def speak(audio):
+    engine.say(audio)
+    engine.runAndWait()
+def takeCommand():
+    r = sr.Recognizer()
+    with sr.Microphone() as source:
+        print("Listening...")
+        r.pause_threshold = 1
+        audio = r.listen(source)
+
+    try:
+        print("Recognizing...")    
+        query = r.recognize_google(audio, language='en-in')
+        print("User said: ",query)
+
+    except Exception as e:
+        print("Can't Reach At ,This Moment...")    
+        print("Say that again please...")  
+        return "None"
+    return query
+def Songs(name):
+    os.startfile("C:\\Users\\Rudra\\OneDrive\\Desktop\\\Spotify.lnk")
+    sleep(5)
+    pyautogui.click(x=41, y=154)
+    sleep(1)
+    pyautogui.click(x=589, y=48)
+    sleep(1)
+    write(name)
+    sleep(1)
+    pyautogui.click(x=1148, y=301)
+    sleep(1)
+    pyautogui.click(x=1148, y=301)
+    sleep(1)
+    quit()
+
+while True:
+    query=takeCommand().lower()
+    if "play song" in query:
+        query=query.replace("play song","")
+        name=query
+        Songs(name)
