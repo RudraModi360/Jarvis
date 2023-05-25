@@ -1,7 +1,26 @@
 # Jarvis
 Voice Assistance
-An AI voice Assistance Which Automates & JOin Their Hands In Our Day-Today lifeStyle,it PErforms several Tasks Like as it can tell aboubt wikipedia of any given topic in brief,even of any subject it find the resources of data for same,it can speak our current location as well as location of sevearl places,along with their path,it can open manier websites,files,codes and so on...
-  it can tell about the current wheather,along with forecast of next 2 days along with it's astronomy,it can shut-down,restart any system in which it gets to run ,it send message to any one on whatsapp by a voice input by user,it can make an voice call along with video call on the same platform,it can directly play any song which i want to play ,even the songs which is not in my system as well ,it can make a joke even,it can notify me with curent date & time as well  .
-   Still,i working on making it's front-end so it can work like a pro model.....
-   
+# Installation
+
+```bash
+git clone https://github.com/RudraModi360/Jarvis.git
+cd Jarvis
+pip install -r requirement.txt
+```
+
+# Features
+- An AI voice assistant that automates and assists in daily tasks
+- Provides brief Wikipedia information on any given topic and finds relevant data resources
+- Speaks current location and directions to various places
+- Opens websites, files, and codes
+- Provides current weather information and a 2-day forecast, including astronomy details
+- Performs system shutdown and restart functions
+- Sends WhatsApp messages through voice input
+- Makes voice and video calls on the same platform
+- Plays requested songs, even those not in the user's system
+- Tells jokes
+- Notifies the user of the current date and time
+- Front-end development in progress for enhanced user experience
   
+  # Contributers
+ [@RudraModi](https://github.com/rudramodi360)
