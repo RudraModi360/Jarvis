@@ -1,0 +1,13 @@
+pyttsx3                2.90
+SpeechRecognition      3.10.0
+datetime
+wikipedia              1.4.0
+webbrowser
+os 
+PyAutoGUI              0.9.53
+keyboard               0.13.5
+time 
+pywhatkit              5.4
+pyjokes                0.6.0
+python-weather         1.0.1
+ asyncio
