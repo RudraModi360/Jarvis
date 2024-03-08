@@ -1,26 +1,25 @@
-# Jarvis
-Voice Assistance
-# Installation
+# Voice Assistant with Python
+
+This Python script implements a voice assistant that can perform various tasks based on voice commands. It utilizes the `pyttsx3`, `speech_recognition`, `wikipedia`, `pyautogui`, `pywhatkit`, `pyjokes`, and `python_weather` libraries.
+
+## Features
+
+- Greet the user based on the time of the day
+- Recognize voice commands
+- Search Wikipedia
+- Open websites (Google, WhatsApp, VS Code, etc.)
+- Perform actions on WhatsApp (Send message, Voice call, Video call)
+- Search for location on Google Maps
+- Search on YouTube
+- Play songs on Spotify
+- Get current time and date
+- Send messages on WhatsApp
+- Tell jokes
+- Get weather forecast
+
+## Installation
+
+To run this script, you need to install the required libraries. You can install them using pip:
 
 ```bash
-git clone https://github.com/RudraModi360/Jarvis.git
-cd Jarvis
-pip install -r requirement.txt
-```
-
-# Features
-- An AI voice assistant that automates and assists in daily tasks
-- Provides brief Wikipedia information on any given topic and finds relevant data resources
-- Speaks current location and directions to various places
-- Opens websites, files, and codes
-- Provides current weather information and a 2-day forecast, including astronomy details
-- Performs system shutdown and restart functions
-- Sends WhatsApp messages through voice input
-- Makes voice and video calls on the same platform
-- Plays requested songs, even those not in the user's system
-- Tells jokes
-- Notifies the user of the current date and time
-- Front-end development in progress for enhanced user experience
-  
-  # Contributers
- [@RudraModi](https://github.com/rudramodi360)
+pip install pyttsx3 speechrecognition wikipedia pyautogui pywhatkit pyjokes python_weather
